@@ -13,6 +13,7 @@
 
 Route::get('/', "PagesController@index");
 Route::get('/contact', "PagesController@contact");
+Route::get('/products', "PagesController@products");
 /*Route::get('/contact', function () {
     return view('contact');
 });*/
